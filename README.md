@@ -196,7 +196,7 @@ Full interactive documentation is available at `/docs` (Swagger UI) once the ser
 ### Run locally
 ```bash
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload    
 ```
 Visit `http://127.0.0.1:8000/docs`
 
@@ -225,4 +225,4 @@ Visit `http://localhost:8000/docs`
 
 ---
 
-**Author:** Shreyas — B.Tech ECE, REVA University | AI & Data Science, iHub IIT Roorkee
+**Author:** Shreyas HS — B.Tech , REVA University | AI & Data Science, iHub IIT Roorkee
