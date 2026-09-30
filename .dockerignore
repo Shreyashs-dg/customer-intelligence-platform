@@ -1,0 +1,11 @@
+data/
+notebooks/
+images/
+.git
+.gitignore
+__pycache__/
+*.pyc
+venv/
+.venv/
+.vscode/
+README.md
